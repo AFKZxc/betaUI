@@ -90,7 +90,7 @@ local function CreateGUI(title)
     agreeFrame.Size = UDim2.new(0.8, 0, 0.5, 0)
     agreeFrame.Position = UDim2.new(0.1, 0, 0.22, 0)
     agreeFrame.BackgroundColor3 = Color3.fromRGB(240, 240, 240)
-    agreeFrame.Text = "1.账号封禁,我们概不负责.\n 2.祝你们身体健康.\n 3.更新时间为5月3日."
+    agreeFrame.Text = "1.账号封禁,我们概不负责.\n 2.祝你们身体健康.\n 3.更新时间为5月28日."
     agreeFrame.TextWrapped = true
 
     
@@ -165,8 +165,8 @@ local function CreateGUI(title)
     end)
     agreeButton.MouseButton1Click:Connect(function()
         AnimateExit()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/useranewrff/roblox-/main/%E5%AF%BC%E7%AE%A1%E6%B7%B7%E6%B7%86.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AFKZxc/betaUI/main/Terms%20of%20UseUI.lua"))()
     end)
 end
-local myTitle = "导管中心协议条款" 
+local myTitle = "协议条款" 
 CreateGUI(myTitle)
