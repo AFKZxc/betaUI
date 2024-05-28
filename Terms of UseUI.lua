@@ -165,7 +165,7 @@ local function CreateGUI(title)
     end)
     agreeButton.MouseButton1Click:Connect(function()
         AnimateExit()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/AFKZxc/betaUI/main/Terms%20of%20UseUI.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AFKZxc/ERT/main/Vbn.lua"))()
     end)
 end
 local myTitle = "协议条款" 
